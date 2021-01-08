@@ -6,6 +6,7 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "npm run clean && tsc",
+    "install": "npm run build",
     "watch": "tsc --watch",
     "clean": "rm -fr dist/*",
     "prepublish": "npm run build",
