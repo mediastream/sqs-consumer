@@ -2,12 +2,15 @@
   "compilerOptions": {
     "target": "es2015",
     "module": "commonjs",
+    "rootDir": "src",
     "outDir": "dist",
     "sourceMap": false,
     "moduleResolution": "node",
+    "ignoreDeprecations": "5.0",
     "allowJs": false,
     "noUnusedLocals": true,
-    "declaration": true
+    "declaration": true,
+    "skipLibCheck": true
   },
   "include": [
     "src/**/*"
